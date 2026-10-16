@@ -16,6 +16,6 @@ export const genericErrorHandler = (err: Error, req: Request, res: Response, nex
 
     res.status(500).json({
         success: false,
-        message: "Internal Server Error"
+        message: "Internal Server Error:"
     });
 }
