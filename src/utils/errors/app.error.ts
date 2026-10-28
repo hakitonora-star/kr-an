@@ -80,7 +80,7 @@ export class UnauthorizedError implements AppError {
     constructor(message: string) {
         this.statusCode = 401;
         this.message = message;
-        this.name = "UNAUthorizedError";
+        this.name = "UNAUTHORIZED Error";
     }
 }
 
