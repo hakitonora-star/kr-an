@@ -22,7 +22,7 @@ export class InternalServerError implements AppError {
     message: string;
     name: string;
     constructor(message: string) {
-        this.statusCode = 500;
+        this.statusCode = 404;
         this.message = message;
         this.name = "InternalServerError";
     }
